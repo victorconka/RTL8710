@@ -7,6 +7,10 @@ I was fallowing the guide provided by cnxsoft you can find at:
 ## Documents:  
 Found datasheets and commands for the chip on the github:  
 <a name="eggman">https://github.com/eggman/RTL8710_DOC</a>  
+<a name="RTL00_datasheet_V1.0" target="_blank">RTL8710_DOC/RTL01_datasheet_V1.0.pdf</a>  
+<a name="RTL01_datasheet_V1.1" target="_blank">RTL8710_DOC/RTL00_datasheet_V1.1.pdf</a>  
+<a name="RTL8710_DEBUG_operation_manual_V1.0" target="_blank">RTL8710_DOC/RTL8710_DEBUG_operation_manual_V1.0.pdf</a>  
+
 ## Material  
 ### USB to TTL Adapter : FTDI232  
 ![FTDI232](imgs/IMG_20170409_143442.jpg)  
