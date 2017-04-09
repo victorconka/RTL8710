@@ -6,7 +6,7 @@ I was fallowing the guide provided by cnxsoft you can find at:
 [RTL8710_Getting_Started_Guide](http://www.cnx-software.com/2016/08/18/getting-started-with-bt-rtl-00-rtl8710-module-serial-console-at-commands-and-esp8266-pin-to-pin-compatibility/)
 ## Documents:  
 Found datasheets and commands for the chip on the github:  
-<a name="eggman">https://github.com/eggman/RTL8710_DOC</a>  
+<a href="https://github.com/eggman/RTL8710_DOC" target="_blank">eggman docs</a>  
 <a href="https://github.com/vsobolyev/RTL8710/blob/master/RTL8710_DOC/RTL00_datasheet_V1.1.pdf" target="_blank">RTL00_datasheet_V1.0</a>  
 <a href="https://github.com/vsobolyev/RTL8710/blob/master/RTL8710_DOC/RTL00_datasheet_V1.1.pdf" target="_blank">RTL01_datasheet_V1.1</a>  
 <a href="https://github.com/vsobolyev/RTL8710/blob/master/RTL8710_DOC/RTL8710_DEBUG_operation_manual_V1.0.pdf" target="_blank">RTL8710_DEBUG_operation_manual</a>  
