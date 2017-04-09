@@ -1,22 +1,22 @@
-#RTL-00, RTL8710 AF  
-##Description:  
+# RTL-00, RTL8710 AF  
+## Description:  
 Trying out the rtl8710 chip.  
 Describing the attepmts to communicate with the chip using the AT commands.  
 I was fallowing the guide provided by cnxsoft you can find at:  
 [RTL8710_Getting_Started_Guide](http://www.cnx-software.com/2016/08/18/getting-started-with-bt-rtl-00-rtl8710-module-serial-console-at-commands-and-esp8266-pin-to-pin-compatibility/)
-##Documents:  
+## Documents:  
 Found datasheets and commands for the chip on the github:  
 <a name="eggman">https://github.com/eggman/RTL8710_DOC</a>  
-##Material  
-###USB to TTL Adapter : FTDI232  
+## Material  
+### USB to TTL Adapter : FTDI232  
 ![FTDI232](imgs/IMG_20170409_143442.jpg)  
-###RTL8710 chip  
+### RTL8710 chip  
 ![RTL8710](imgs/IMG_20170409_151258.jpg)  
-###PuTTY
+### PuTTY
 ![1](imgs/putty_configuration.png)
 ![2](imgs/putty_configuration_2.png)  
 
-##RESULTS  
+## RESULTS  
 At first the chip would enter into loop with the following message:  
 **[B&T_IOT_RTL8710] ######### NOT B&T FIREWARM CHECK FAILED!!! ##############**  
 "Firewarm" is no mistake, it does say "FIREWARM" instead of Firmware.  
