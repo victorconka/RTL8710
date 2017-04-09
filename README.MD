@@ -29,6 +29,6 @@ If I type a lot it would say:
   
  After a while trying to make the chip work I've accidentally shortened the CHIP_EN pin.  
  The chip rebooted and I got a different result:  
- ![result_2](D:\Usuario\Dropbox\RTL8710\imgs\result_2.png)  
+ ![result_2](imgs/result_2.png)  
  No commands are accepted, neither the wifi is initialized.
 
