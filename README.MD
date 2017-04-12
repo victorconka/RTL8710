@@ -31,4 +31,77 @@ If I type a lot it would say:
  The chip rebooted and I got a different result:  
  ![result_2](imgs/result_2.png)  
  No commands are accepted, neither the wifi is initialized.
+ 
+ ## Measuring current  
+ I was suggested to do the next:
+### 	1/ Make sure that you supply enough power. Add a capacitor.  
+First thing I did was to measure the amount of current that ftdi232 is able to deliver.  
+The result was about 0.38 Amps.  
+  
+ Then I've added a capacitor  
+ ![Capacitor](imgs/Capacitor.jpg)  
+
+
+###	2/ pull up CH_EN  
+
+Also pulled up the chip_en pin.  
+![Pull_Up_Resistor_Chip_En](imgs/Pull_Up_Resistor_CH_EN.jpg)  
+### Results  
+Also I've connected an ammeter to the vcc pin to see what is the current consuption.  
+Results are the following:  
+#### PullUp Resistor -> Ground connected:  
+Module won't boot, it's in the "shutdown chip" mode.  
+![chip_enable_datasheet](imgs/CHIP_EN.png)  
+Current withdrawal:  
+![PULLUP_GND_CONNECTED](imgs/pullup_gnd_connected.jpg)  
+#### PullUp Ground Open  
+Chips starts to boot, but stops with the same message as before : "Starting wifi ..."  
+Message:  
+
+```
+=========================================================
+
+ROM Version: 0.3
+
+Build ToolChain Version: gcc version 4.8.3 (Realtek ASDK-4.8.3p1 Build 2003)
+
+=========================================================
+Check boot type form eFuse
+SPI Initial
+Image1 length: 0x3704, Image Addr: 0x10000bc8
+Image1 Validate OK, Going jump to Image1
+===== Enter Image 1 ====
+
+load NEW fw 0
+Flash Image2:Addr 0xb000, Len 321412, Load to SRAM 0x10006000
+No Image3
+Img2 Sign: RTKWin, InfaStart @ 0x10006079
+===== Enter Image 2 ====
+[B&T_IOT_RTL8710]                         ######################                 ####################            ########################
+[B&T_IOT_RTL8710]                        #                      #               #                    #          #                        #
+[B&T_IOT_RTL8710]                       #     ################   #             # # ##################            #########      #########
+[B&T_IOT_RTL8710]                       #    #               #   #             # #                                       #      #
+[B&T_IOT_RTL8710]                       #   #                #   #             #  #                                      #      #
+[B&T_IOT_RTL8710]                       #   #                #   #              #  #                                     #      #
+[B&T_IOT_RTL8710]                       #   #                #  #                #  #                                    #      #
+[B&T_IOT_RTL8710]                       #    ################  #                  #  #                                   #      #
+[B&T_IOT_RTL8710]                       #                      #                   #  #                                  #      #
+[B&T_IOT_RTL8710]                       #   ################## #              #######  #                                 #      #
+[B&T_IOT_RTL8710]                       #   #                #  #            #          #                                #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          #  #######   #        ####                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #        #  #       #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #          #  #     #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #           #  #    #  #                   #      #
+[B&T_IOT_RTL8710]                       #    ################    #          #   ##########    #####  #                   #      #
+[B&T_IOT_RTL8710]                       #                       #            #                      #                    #      #
+[B&T_IOT_RTL8710]                        #######################               #####################                     ########
+[B&T_IOT_RTL8710]                        #########  Company website&Support&Forum link: http://www.iot-tech-now.com/        ##############
+[B&T_IOT_RTL8710]                        #########   CHECK FIREWARM SUCCESS !!!                                             ##############
+[B&T_IOT_RTL8710]#
+Initializing WIFI ...
+```
+
+A strange thing happens with the current. The chip consumes 15 or 25 mAmps:  
+![PullUp_Ground_Open_1](imgs/pullup_gnd_open_1.jpg)    
+![PullUp_Ground_Open_2](imgs/pullup_gnd_open_2.jpg)  
 
