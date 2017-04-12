@@ -111,3 +111,7 @@ According to the datasheed there is one mode that consumes 30mAmps, but it's not
 
 ![PullUp_Ground_Open_2](imgs/pullup_gnd_open_2.jpg)  
 
+## Removed the protective plate  
+Well thats it, removed the protective plate, burnt the indicator led.  
+Booting process still the same  
+![rtl8710_no_protective plate](imgs/no_protective_plate.jpg)  
