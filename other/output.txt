@@ -1,0 +1,83 @@
+[B&T_IOT_RTL8710]#
+=========================================================
+
+ROM Version: 0.3
+
+Build ToolChain Version: gcc version 4.8.3 (Realtek ASDK-4.8.3p1 Build 2003)
+
+=========================================================
+Check boot type form eFuse
+SPI Initial
+Image1 length: 0x3704, Image Addr: 0x10000bc8
+Image1 Validate OK, Going jump to Image1
+===== Enter Image 1 ====
+
+load NEW fw 0
+Flash Image2:Addr 0xb000, Len 321412, Load to SRAM 0x10006000
+No Image3
+Img2 Sign: RTKWin, InfaStart @ 0x10006079
+===== Enter Image 2 ====
+[B&T_IOT_RTL8710]                         ######################                 ####################            ########################
+[B&T_IOT_RTL8710]                        #                      #               #                    #          #                        #
+[B&T_IOT_RTL8710]                       #     ################   #             # # ##################            #########      #########
+[B&T_IOT_RTL8710]                       #    #               #   #             # #                                       #      #
+[B&T_IOT_RTL8710]                       #   #                #   #             #  #                                      #      #
+[B&T_IOT_RTL8710]                       #   #                #   #              #  #                                     #      #
+[B&T_IOT_RTL8710]                       #   #                #  #                #  #                                    #      #
+[B&T_IOT_RTL8710]                       #    ################  #                  #  #                                   #      #
+[B&T_IOT_RTL8710]                       #                      #                   #  #                                  #      #
+[B&T_IOT_RTL8710]                       #   ################## #              #######  #                                 #      #
+[B&T_IOT_RTL8710]                       #   #                #  #            #          #                                #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          #  #######   #        ####                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #        #  #       #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #          #  #     #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #           #  #    #  #                   #      #
+[B&T_IOT_RTL8710]                       #    ################    #          #   ##########    #####  #                   #      #
+[B&T_IOT_RTL8710]                       #                       #            #                      #                    #      #
+[B&T_IOT_RTL8710]                        #######################               #####################                     ########
+[B&T_IOT_RTL8710]                        #########  Company website&Support&Forum link: http://www.iot-tech-now.com/        ##############
+[B&T_IOT_RTL8710]                        #########   CHECK FIREWARM SUCCESS !!!                                             ##############
+[B&T_IOT_RTL8710]#
+Initializing WIFI ...
+
+
+=========================================================
+
+ROM Version: 0.3
+
+Build ToolChain Version: gcc version 4.8.3 (Realtek ASDK-4.8.3p1 Build 2003)
+
+=========================================================
+Check boot type form eFuse
+SPI Initial
+Image1 length: 0x3704, Image Addr: 0x10000bc8
+Image1 Validate OK, Going jump to Image1
+===== Enter Image 1 ====
+
+load NEW fw 0
+Flash Image2:Addr 0xb000, Len 321412, Load to SRAM 0x10006000
+No Image3
+Img2 Sign: RTKWin, InfaStart @ 0x10006079
+===== Enter Image 2 ====
+[B&T_IOT_RTL8710]                         ######################                 ####################            ########################
+[B&T_IOT_RTL8710]                        #                      #               #                    #          #                        #
+[B&T_IOT_RTL8710]                       #     ################   #             # # ##################            #########      #########
+[B&T_IOT_RTL8710]                       #    #               #   #             # #                                       #      #
+[B&T_IOT_RTL8710]                       #   #                #   #             #  #                                      #      #
+[B&T_IOT_RTL8710]                       #   #                #   #              #  #                                     #      #
+[B&T_IOT_RTL8710]                       #   #                #  #                #  #                                    #      #
+[B&T_IOT_RTL8710]                       #    ################  #                  #  #                                   #      #
+[B&T_IOT_RTL8710]                       #                      #                   #  #                                  #      #
+[B&T_IOT_RTL8710]                       #   ################## #              #######  #                                 #      #
+[B&T_IOT_RTL8710]                       #   #                #  #            #          #                                #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          #  #######   #        ####                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #        #  #       #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #          #  #     #  #                   #      #
+[B&T_IOT_RTL8710]                       #   #                #   #          # #           #  #    #  #                   #      #
+[B&T_IOT_RTL8710]                       #    ################    #          #   ##########    #####  #                   #      #
+[B&T_IOT_RTL8710]                       #                       #            #                      #                    #      #
+[B&T_IOT_RTL8710]                        #######################               #####################                     ########
+[B&T_IOT_RTL8710]                        #########  Company website&Support&Forum link: http://www.iot-tech-now.com/        ##############
+[B&T_IOT_RTL8710]                        #########   CHECK FIREWARM SUCCESS !!!                                             ##############
+[B&T_IOT_RTL8710]#
+Initializing WIFI ...

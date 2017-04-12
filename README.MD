@@ -53,6 +53,7 @@ Results are the following:
 Module won't boot, it's in the "shutdown chip" mode.  
 ![chip_enable_datasheet](imgs/CHIP_EN.png)  
 Current withdrawal:  
+According to the datasheet 15mAmps corresponds to the Modem-Sleep mode.  
 ![PULLUP_GND_CONNECTED](imgs/pullup_gnd_connected.jpg)  
 #### PullUp Ground Open  
 Chips starts to boot, but stops with the same message as before : "Starting wifi ..."  
@@ -99,9 +100,14 @@ Img2 Sign: RTKWin, InfaStart @ 0x10006079
 [B&T_IOT_RTL8710]                        #########   CHECK FIREWARM SUCCESS !!!                                             ##############
 [B&T_IOT_RTL8710]#
 Initializing WIFI ...
-```
-
+```  
+  
+#### RTL-00 modes  
+![RTL-00 modes](imgs/rtl00_mods.png)  
+  
 A strange thing happens with the current. The chip consumes 15 or 25 mAmps:  
-![PullUp_Ground_Open_1](imgs/pullup_gnd_open_1.jpg)    
+![PullUp_Ground_Open_1](imgs/pullup_gnd_open_1.jpg)   
+According to the datasheed there is one mode that consumes 30mAmps, but it's not translated:  
+
 ![PullUp_Ground_Open_2](imgs/pullup_gnd_open_2.jpg)  
 
